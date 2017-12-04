@@ -96,9 +96,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(148, 42);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(301, 39);
+            this.label1.Size = new System.Drawing.Size(318, 39);
             this.label1.TabIndex = 8;
-            this.label1.Text = "Data Struture Labs";
+            this.label1.Text = "Data Structure Labs";
             // 
             // label3
             // 
@@ -152,9 +152,9 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(9, 44);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(65, 18);
+            this.label2.Size = new System.Drawing.Size(73, 18);
             this.label2.TabIndex = 11;
-            this.label2.Text = "2D Arrys";
+            this.label2.Text = "2D Arrays";
             // 
             // label5
             // 
@@ -373,9 +373,9 @@
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.Location = new System.Drawing.Point(9, 26);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(113, 18);
+            this.label15.Size = new System.Drawing.Size(125, 18);
             this.label15.TabIndex = 10;
-            this.label15.Text = "Finds the greats";
+            this.label15.Text = "Finds the greatest";
             // 
             // btn_lab6
             // 
@@ -397,7 +397,7 @@
             this.groupBox8.Size = new System.Drawing.Size(156, 136);
             this.groupBox8.TabIndex = 14;
             this.groupBox8.TabStop = false;
-            this.groupBox8.Text = "Tower of Hanio";
+            this.groupBox8.Text = "Tower of Hanoi";
             // 
             // label16
             // 
@@ -459,7 +459,7 @@
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(147, 18);
             this.label19.TabIndex = 10;
-            this.label19.Text = "Finds prime numders";
+            this.label19.Text = "Finds prime numbers";
             // 
             // btn_lab8
             // 
@@ -489,9 +489,9 @@
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.Location = new System.Drawing.Point(19, 44);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(101, 18);
+            this.label20.Size = new System.Drawing.Size(109, 18);
             this.label20.TabIndex = 11;
-            this.label20.Text = "and test Big O";
+            this.label20.Text = "and tests Big O";
             // 
             // label21
             // 
