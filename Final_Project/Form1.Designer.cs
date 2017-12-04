@@ -51,7 +51,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(391, 39);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Data Stuctures Fall 2016";
+            this.label2.Text = "Data Stuctures Fall 2017";
             // 
             // btn_Gotolab
             // 
@@ -62,6 +62,7 @@
             this.btn_Gotolab.TabIndex = 2;
             this.btn_Gotolab.Text = "Go To Labs";
             this.btn_Gotolab.UseVisualStyleBackColor = true;
+            this.btn_Gotolab.Click += new System.EventHandler(this.btn_Gotolab_Click);
             // 
             // Form1
             // 

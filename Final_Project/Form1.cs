@@ -16,5 +16,12 @@ namespace Final_Project
         {
             InitializeComponent();
         }
+
+        private void btn_Gotolab_Click(object sender, EventArgs e)
+        {
+            Labs_Screen n = new Labs_Screen();
+            Hide();
+            n.ShowDialog();
+        }
     }
 }
