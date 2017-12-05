@@ -60,13 +60,14 @@
             // 
             // btn_Gotolab
             // 
+            this.btn_Gotolab.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_Gotolab.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Gotolab.Location = new System.Drawing.Point(378, 286);
             this.btn_Gotolab.Name = "btn_Gotolab";
             this.btn_Gotolab.Size = new System.Drawing.Size(196, 71);
             this.btn_Gotolab.TabIndex = 2;
             this.btn_Gotolab.Text = "Go To Labs";
-            this.btn_Gotolab.UseVisualStyleBackColor = true;
+            this.btn_Gotolab.UseVisualStyleBackColor = false;
             this.btn_Gotolab.Click += new System.EventHandler(this.btn_Gotolab_Click);
             // 
             // Form1
