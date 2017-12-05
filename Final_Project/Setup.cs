@@ -15,12 +15,11 @@ namespace Final_Project
         }
         public static void send_Info()
         {
+            //lab 2 Skips this so because the templit is different then the others
             switch (lab)
             {
                 case "Lab 1":
-                    break;
-                case "Lab 2":
-                    break;
+                    break;               
                 case "Lab 3":
                     break;
                 case "Lab 4":
