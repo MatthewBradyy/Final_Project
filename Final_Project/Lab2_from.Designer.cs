@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Lab2_from));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -39,7 +38,7 @@
             this.btn_codePart1 = new System.Windows.Forms.Button();
             this.btn_runPart2 = new System.Windows.Forms.Button();
             this.btn_codePart2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_back = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -147,23 +146,24 @@
             this.btn_codePart2.Text = "Code";
             this.btn_codePart2.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btn_back
             // 
-            this.button1.Location = new System.Drawing.Point(377, 405);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(122, 43);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "Code";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btn_back.Location = new System.Drawing.Point(377, 405);
+            this.btn_back.Name = "btn_back";
+            this.btn_back.Size = new System.Drawing.Size(122, 43);
+            this.btn_back.TabIndex = 10;
+            this.btn_back.Text = "Back";
+            this.btn_back.UseVisualStyleBackColor = true;
+            this.btn_back.Click += new System.EventHandler(this.btn_back_Click);
             // 
             // Lab2_from
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(587, 475);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_back);
             this.Controls.Add(this.btn_codePart2);
             this.Controls.Add(this.btn_runPart2);
             this.Controls.Add(this.btn_codePart1);
@@ -194,6 +194,6 @@
         private System.Windows.Forms.Button btn_codePart1;
         private System.Windows.Forms.Button btn_runPart2;
         private System.Windows.Forms.Button btn_codePart2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_back;
     }
 }

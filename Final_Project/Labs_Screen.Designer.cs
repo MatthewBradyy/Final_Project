@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Labs_Screen));
             this.btn_lab1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -397,7 +396,7 @@
             // 
             // groupBox8
             // 
-            this.groupBox8.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox8.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.groupBox8.Controls.Add(this.label16);
             this.groupBox8.Controls.Add(this.label17);
             this.groupBox8.Controls.Add(this.btn_Lab7);
@@ -528,8 +527,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Silver;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(593, 611);
             this.Controls.Add(this.groupBox10);
             this.Controls.Add(this.groupBox9);
