@@ -42,13 +42,13 @@
             this.label7 = new System.Windows.Forms.Label();
             this.btn_lab3 = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.btn_lab4 = new System.Windows.Forms.Button();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.btn_lab4 = new System.Windows.Forms.Button();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
@@ -96,7 +96,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(148, 42);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(318, 39);
+            this.label1.Size = new System.Drawing.Size(308, 38);
             this.label1.TabIndex = 8;
             this.label1.Text = "Data Structure Labs";
             // 
@@ -174,6 +174,7 @@
             this.btn_lab2.TabIndex = 0;
             this.btn_lab2.Text = "Lab 2";
             this.btn_lab2.UseVisualStyleBackColor = true;
+            this.btn_lab2.Click += new System.EventHandler(this.btn_lab2_Click);
             // 
             // groupBox3
             // 
@@ -231,35 +232,6 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Binary Tree";
             // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(4, 44);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(146, 18);
-            this.label8.TabIndex = 11;
-            this.label8.Text = "add, remove, change";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(9, 26);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(119, 18);
-            this.label9.TabIndex = 10;
-            this.label9.Text = "Builds a tree with";
-            // 
-            // btn_lab4
-            // 
-            this.btn_lab4.Location = new System.Drawing.Point(22, 75);
-            this.btn_lab4.Name = "btn_lab4";
-            this.btn_lab4.Size = new System.Drawing.Size(110, 40);
-            this.btn_lab4.TabIndex = 0;
-            this.btn_lab4.Text = "Lab 4";
-            this.btn_lab4.UseVisualStyleBackColor = true;
-            // 
             // groupBox5
             // 
             this.groupBox5.Controls.Add(this.label10);
@@ -301,6 +273,35 @@
             this.button4.TabIndex = 0;
             this.button4.Text = "Lab 1";
             this.button4.UseVisualStyleBackColor = true;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(4, 44);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(146, 18);
+            this.label8.TabIndex = 11;
+            this.label8.Text = "add, remove, change";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(9, 26);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(119, 18);
+            this.label9.TabIndex = 10;
+            this.label9.Text = "Builds a tree with";
+            // 
+            // btn_lab4
+            // 
+            this.btn_lab4.Location = new System.Drawing.Point(22, 75);
+            this.btn_lab4.Name = "btn_lab4";
+            this.btn_lab4.Size = new System.Drawing.Size(110, 40);
+            this.btn_lab4.TabIndex = 0;
+            this.btn_lab4.Text = "Lab 4";
+            this.btn_lab4.UseVisualStyleBackColor = true;
             // 
             // groupBox6
             // 

@@ -16,5 +16,12 @@ namespace Final_Project
         {
             InitializeComponent();
         }
+
+        private void btn_lab2_Click(object sender, EventArgs e)
+        {
+            Lab2_from f = new Lab2_from();
+            this.Close();
+            f.Show();
+        }
     }
 }
