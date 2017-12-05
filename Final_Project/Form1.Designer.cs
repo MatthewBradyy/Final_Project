@@ -54,7 +54,7 @@
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label2.Location = new System.Drawing.Point(87, 173);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(391, 39);
+            this.label2.Size = new System.Drawing.Size(376, 38);
             this.label2.TabIndex = 1;
             this.label2.Text = "Data Stuctures Fall 2017";
             // 

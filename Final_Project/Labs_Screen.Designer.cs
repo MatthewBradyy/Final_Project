@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Labs_Screen));
             this.btn_lab1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -93,6 +94,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(148, 42);
             this.label1.Name = "label1";
@@ -122,6 +124,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.btn_lab1);
@@ -135,6 +138,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.BackColor = System.Drawing.Color.Transparent;
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.btn_lab2);
@@ -178,6 +182,7 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.BackColor = System.Drawing.Color.Transparent;
             this.groupBox3.Controls.Add(this.label6);
             this.groupBox3.Controls.Add(this.label7);
             this.groupBox3.Controls.Add(this.btn_lab3);
@@ -220,6 +225,7 @@
             // 
             // groupBox4
             // 
+            this.groupBox4.BackColor = System.Drawing.Color.Transparent;
             this.groupBox4.Controls.Add(this.groupBox5);
             this.groupBox4.Controls.Add(this.label8);
             this.groupBox4.Controls.Add(this.label9);
@@ -305,6 +311,7 @@
             // 
             // groupBox6
             // 
+            this.groupBox6.BackColor = System.Drawing.Color.Transparent;
             this.groupBox6.Controls.Add(this.label12);
             this.groupBox6.Controls.Add(this.label13);
             this.groupBox6.Controls.Add(this.btn_lab5);
@@ -347,6 +354,7 @@
             // 
             // groupBox7
             // 
+            this.groupBox7.BackColor = System.Drawing.Color.Transparent;
             this.groupBox7.Controls.Add(this.label14);
             this.groupBox7.Controls.Add(this.label15);
             this.groupBox7.Controls.Add(this.btn_lab6);
@@ -389,6 +397,7 @@
             // 
             // groupBox8
             // 
+            this.groupBox8.BackColor = System.Drawing.Color.Transparent;
             this.groupBox8.Controls.Add(this.label16);
             this.groupBox8.Controls.Add(this.label17);
             this.groupBox8.Controls.Add(this.btn_Lab7);
@@ -431,6 +440,7 @@
             // 
             // groupBox9
             // 
+            this.groupBox9.BackColor = System.Drawing.Color.Transparent;
             this.groupBox9.Controls.Add(this.label18);
             this.groupBox9.Controls.Add(this.label19);
             this.groupBox9.Controls.Add(this.btn_lab8);
@@ -473,6 +483,7 @@
             // 
             // groupBox10
             // 
+            this.groupBox10.BackColor = System.Drawing.Color.Transparent;
             this.groupBox10.Controls.Add(this.label20);
             this.groupBox10.Controls.Add(this.label21);
             this.groupBox10.Controls.Add(this.btn_Lab9);
@@ -518,7 +529,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(593, 611);
             this.Controls.Add(this.groupBox10);
             this.Controls.Add(this.groupBox9);

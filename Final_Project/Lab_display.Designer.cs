@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Lab_display));
             this.lbl_LabName = new System.Windows.Forms.Label();
             this.lbl_LabNumber = new System.Windows.Forms.Label();
             this.lbl_discription = new System.Windows.Forms.Label();
@@ -39,6 +40,7 @@
             // lbl_LabName
             // 
             this.lbl_LabName.AutoSize = true;
+            this.lbl_LabName.BackColor = System.Drawing.Color.Transparent;
             this.lbl_LabName.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_LabName.Location = new System.Drawing.Point(13, 13);
             this.lbl_LabName.Name = "lbl_LabName";
@@ -49,6 +51,7 @@
             // lbl_LabNumber
             // 
             this.lbl_LabNumber.AutoSize = true;
+            this.lbl_LabNumber.BackColor = System.Drawing.Color.Transparent;
             this.lbl_LabNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_LabNumber.Location = new System.Drawing.Point(58, 82);
             this.lbl_LabNumber.Name = "lbl_LabNumber";
@@ -59,6 +62,7 @@
             // lbl_discription
             // 
             this.lbl_discription.AutoSize = true;
+            this.lbl_discription.BackColor = System.Drawing.Color.Transparent;
             this.lbl_discription.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_discription.Location = new System.Drawing.Point(13, 125);
             this.lbl_discription.Name = "lbl_discription";
@@ -97,6 +101,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(587, 366);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);

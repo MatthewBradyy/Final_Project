@@ -39,12 +39,13 @@
             this.btn_codePart1 = new System.Windows.Forms.Button();
             this.btn_runPart2 = new System.Windows.Forms.Button();
             this.btn_codePart2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.White;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(13, 13);
             this.label1.Name = "label1";
@@ -55,7 +56,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.White;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(55, 86);
             this.label2.Name = "label2";
@@ -66,7 +67,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.White;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(25, 150);
@@ -78,7 +79,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.White;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(62, 179);
             this.label4.Name = "label4";
@@ -90,7 +91,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.White;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(62, 336);
             this.label5.Name = "label5";
@@ -102,7 +103,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.White;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(25, 307);
             this.label6.Name = "label6";
@@ -112,7 +113,7 @@
             // 
             // btn_runPart1
             // 
-            this.btn_runPart1.Location = new System.Drawing.Point(272, 246);
+            this.btn_runPart1.Location = new System.Drawing.Point(62, 245);
             this.btn_runPart1.Name = "btn_runPart1";
             this.btn_runPart1.Size = new System.Drawing.Size(122, 43);
             this.btn_runPart1.TabIndex = 6;
@@ -121,7 +122,7 @@
             // 
             // btn_codePart1
             // 
-            this.btn_codePart1.Location = new System.Drawing.Point(420, 246);
+            this.btn_codePart1.Location = new System.Drawing.Point(220, 245);
             this.btn_codePart1.Name = "btn_codePart1";
             this.btn_codePart1.Size = new System.Drawing.Size(122, 43);
             this.btn_codePart1.TabIndex = 7;
@@ -130,7 +131,7 @@
             // 
             // btn_runPart2
             // 
-            this.btn_runPart2.Location = new System.Drawing.Point(272, 398);
+            this.btn_runPart2.Location = new System.Drawing.Point(62, 405);
             this.btn_runPart2.Name = "btn_runPart2";
             this.btn_runPart2.Size = new System.Drawing.Size(122, 43);
             this.btn_runPart2.TabIndex = 8;
@@ -139,19 +140,30 @@
             // 
             // btn_codePart2
             // 
-            this.btn_codePart2.Location = new System.Drawing.Point(420, 398);
+            this.btn_codePart2.Location = new System.Drawing.Point(220, 405);
             this.btn_codePart2.Name = "btn_codePart2";
             this.btn_codePart2.Size = new System.Drawing.Size(122, 43);
             this.btn_codePart2.TabIndex = 9;
             this.btn_codePart2.Text = "Code";
             this.btn_codePart2.UseVisualStyleBackColor = true;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(377, 405);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(122, 43);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "Code";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Lab2_from
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(587, 475);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btn_codePart2);
             this.Controls.Add(this.btn_runPart2);
             this.Controls.Add(this.btn_codePart1);
@@ -182,5 +194,6 @@
         private System.Windows.Forms.Button btn_codePart1;
         private System.Windows.Forms.Button btn_runPart2;
         private System.Windows.Forms.Button btn_codePart2;
+        private System.Windows.Forms.Button button1;
     }
 }
