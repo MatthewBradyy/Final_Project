@@ -89,6 +89,7 @@
             this.btn_lab1.TabIndex = 0;
             this.btn_lab1.Text = "Lab 1";
             this.btn_lab1.UseVisualStyleBackColor = true;
+            this.btn_lab1.Click += new System.EventHandler(this.lab_choose_btn);
             // 
             // label1
             // 
@@ -221,6 +222,7 @@
             this.btn_lab3.TabIndex = 0;
             this.btn_lab3.Text = "Lab 3";
             this.btn_lab3.UseVisualStyleBackColor = true;
+            this.btn_lab3.Click += new System.EventHandler(this.lab_choose_btn);
             // 
             // groupBox4
             // 
@@ -307,6 +309,7 @@
             this.btn_lab4.TabIndex = 0;
             this.btn_lab4.Text = "Lab 4";
             this.btn_lab4.UseVisualStyleBackColor = true;
+            this.btn_lab4.Click += new System.EventHandler(this.lab_choose_btn);
             // 
             // groupBox6
             // 
@@ -350,6 +353,7 @@
             this.btn_lab5.TabIndex = 0;
             this.btn_lab5.Text = "Lab 5";
             this.btn_lab5.UseVisualStyleBackColor = true;
+            this.btn_lab5.Click += new System.EventHandler(this.lab_choose_btn);
             // 
             // groupBox7
             // 
@@ -393,6 +397,7 @@
             this.btn_lab6.TabIndex = 0;
             this.btn_lab6.Text = "Lab 6";
             this.btn_lab6.UseVisualStyleBackColor = true;
+            this.btn_lab6.Click += new System.EventHandler(this.lab_choose_btn);
             // 
             // groupBox8
             // 
@@ -436,6 +441,7 @@
             this.btn_Lab7.TabIndex = 0;
             this.btn_Lab7.Text = "Lab 7";
             this.btn_Lab7.UseVisualStyleBackColor = true;
+            this.btn_Lab7.Click += new System.EventHandler(this.lab_choose_btn);
             // 
             // groupBox9
             // 
@@ -479,6 +485,7 @@
             this.btn_lab8.TabIndex = 0;
             this.btn_lab8.Text = "Lab 8";
             this.btn_lab8.UseVisualStyleBackColor = true;
+            this.btn_lab8.Click += new System.EventHandler(this.lab_choose_btn);
             // 
             // groupBox10
             // 
@@ -522,6 +529,7 @@
             this.btn_Lab9.TabIndex = 0;
             this.btn_Lab9.Text = "Lab 9";
             this.btn_Lab9.UseVisualStyleBackColor = true;
+            this.btn_Lab9.Click += new System.EventHandler(this.lab_choose_btn);
             // 
             // Labs_Screen
             // 

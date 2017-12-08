@@ -14,6 +14,13 @@ namespace Final_Project
     {
         public string lab = "", lab_name = "", lab_discription = "", lab_code = "", lab_run = "";
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Labs_Screen f = new Labs_Screen();
+            Close();
+            f.Show();
+        }
+
         private void Lab_display_Load(object sender, EventArgs e)
         {
             lbl_LabName.Text = lab_name;

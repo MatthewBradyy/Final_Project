@@ -12,6 +12,7 @@ namespace Final_Project
 {
     public partial class Labs_Screen : Form
     {
+        
         public Labs_Screen()
         {
             InitializeComponent();
@@ -23,5 +24,13 @@ namespace Final_Project
             this.Close();
             f.Show();
         }
+        private void lab_choose_btn(object sender, EventArgs e)
+        {        
+            Button clickedButton = (Button)sender;                 
+            Setup s = new Setup();
+            Close();
+            s.Get_lab(clickedButton.Text.ToString());
+        }
+        
     }
 }
