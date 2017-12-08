@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace Final_Project
 {
@@ -22,6 +23,26 @@ namespace Final_Project
             Labs_Screen f = new Labs_Screen();
             Close();
             f.Show();
+        }
+
+        private void btn_runPart1_Click(object sender, EventArgs e)
+        {
+            Process.Start("labs\\lab2a.exe"); 
+        }
+
+        private void btn_codePart1_Click(object sender, EventArgs e)
+        {
+            Process.Start("labs_code\\lab2a.txt");
+        }
+
+        private void btn_runPart2_Click(object sender, EventArgs e)
+        {
+            Process.Start("labs\\lab2b.exe");
+        }
+
+        private void btn_codePart2_Click(object sender, EventArgs e)
+        {
+            Process.Start("labs_code\\lab2b.txt");
         }
     }
 }

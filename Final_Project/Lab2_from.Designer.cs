@@ -59,7 +59,7 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(55, 86);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(110, 39);
+            this.label2.Size = new System.Drawing.Size(106, 38);
             this.label2.TabIndex = 1;
             this.label2.Text = "LAB 2";
             // 
@@ -118,6 +118,7 @@
             this.btn_runPart1.TabIndex = 6;
             this.btn_runPart1.Text = "Run";
             this.btn_runPart1.UseVisualStyleBackColor = true;
+            this.btn_runPart1.Click += new System.EventHandler(this.btn_runPart1_Click);
             // 
             // btn_codePart1
             // 
@@ -127,6 +128,7 @@
             this.btn_codePart1.TabIndex = 7;
             this.btn_codePart1.Text = "Code";
             this.btn_codePart1.UseVisualStyleBackColor = true;
+            this.btn_codePart1.Click += new System.EventHandler(this.btn_codePart1_Click);
             // 
             // btn_runPart2
             // 
@@ -136,6 +138,7 @@
             this.btn_runPart2.TabIndex = 8;
             this.btn_runPart2.Text = "Run";
             this.btn_runPart2.UseVisualStyleBackColor = true;
+            this.btn_runPart2.Click += new System.EventHandler(this.btn_runPart2_Click);
             // 
             // btn_codePart2
             // 
@@ -145,6 +148,7 @@
             this.btn_codePart2.TabIndex = 9;
             this.btn_codePart2.Text = "Code";
             this.btn_codePart2.UseVisualStyleBackColor = true;
+            this.btn_codePart2.Click += new System.EventHandler(this.btn_codePart2_Click);
             // 
             // btn_back
             // 
