@@ -7,12 +7,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace Final_Project
 {
     public partial class Lab_display : Form
     {
         public string lab = "", lab_name = "", lab_discription = "", lab_code = "", lab_run = "";
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Process.Start(lab_code);
+        }
 
         private void button2_Click(object sender, EventArgs e)
         {

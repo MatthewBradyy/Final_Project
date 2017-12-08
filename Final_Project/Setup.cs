@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Final_Project
 {
     class Setup
@@ -25,7 +26,7 @@ namespace Final_Project
                     lab_name = "name goes here";
                     lab_discription = "discrition goes here";
                     lab_code = "code location";
-                    lab_run = "lab location";
+                    lab_run = "E:\\Fall 2017\\Data Stutcher\\Labs\\Final_Project\\Final_Project\\labs\\Lab1\\ConsoleApplab1changed\\bin\\Debug\\run.exe";
                     break;  
                 //lab 3 info    
                 case "Lab 3":
