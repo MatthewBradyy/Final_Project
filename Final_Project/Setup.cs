@@ -26,56 +26,56 @@ namespace Final_Project
                     lab_name = "name goes here";
                     lab_discription = "discrition goes here";
                     lab_code = "code location";
-                    lab_run = "E:\\Fall 2017\\Data Stutcher\\Labs\\Final_Project\\Final_Project\\labs\\Lab1\\ConsoleApplab1changed\\bin\\Debug\\run.exe";
+                    lab_run = "labs\\lab1.exe";
                     break;  
                 //lab 3 info    
                 case "Lab 3":
                     lab_name = "name goes here";
                     lab_discription = "discrition goes here";
                     lab_code = "code location";
-                    lab_run = "lab location";
+                    lab_run = "labs\\lab3.exe";
                     break;
                 //lab 4 info
                 case "Lab 4":
                     lab_name = "name goes here";
                     lab_discription = "discrition goes here";
                     lab_code = "code location";
-                    lab_run = "lab location";
+                    lab_run = "labs\\lab4.exe";
                     break;
                 //lab 5 info 
                 case "Lab 5":
                     lab_name = "name goes here";
                     lab_discription = "discrition goes here";
                     lab_code = "code location";
-                    lab_run = "lab location";
+                    lab_run = "labs\\lab5.exe";
                     break;
                 //lab 6 info
                 case "Lab 6":
                     lab_name = "name goes here";
                     lab_discription = "discrition goes here";
                     lab_code = "code location";
-                    lab_run = "lab location";
+                    lab_run = "labs\\lab6.exe";
                     break;
                 //lab 7 info
                 case "Lab 7":
                     lab_name = "name goes here";
                     lab_discription = "discrition goes here";
                     lab_code = "code location";
-                    lab_run = "lab location";
+                    lab_run = "labs\\lab7.exe";
                     break;
                 //lab 8 info
                 case "Lab 8":
                     lab_name = "name goes here";
                     lab_discription = "discrition goes here";
                     lab_code = "code location";
-                    lab_run = "lab location";
+                    lab_run = "labs\\lab8.exe";
                     break;
                 //lab 9 info
                 case "Lab 9":
                     lab_name = "name goes here";
                     lab_discription = "discrition goes here";
                     lab_code = "code location";
-                    lab_run = "lab location";
+                    lab_run = "labs\\lab9.exe";
                     break;
 
             }

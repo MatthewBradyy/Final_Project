@@ -17,7 +17,7 @@ namespace Final_Project
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Process.Start(lab_code);
+            Process.Start(lab_run);
         }
 
         private void button2_Click(object sender, EventArgs e)
