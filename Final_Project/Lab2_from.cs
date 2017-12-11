@@ -27,22 +27,22 @@ namespace Final_Project
 
         private void btn_runPart1_Click(object sender, EventArgs e)
         {
-            Process.Start("labs\\lab2a.exe"); 
+            Process.Start("labs\\lab2a.exe"); //relivent path finding it goes from where it is runing and navigates fomr there
         }
 
         private void btn_codePart1_Click(object sender, EventArgs e)
         {
-            Process.Start("labs_code\\lab2a.txt");
+            Process.Start("labs_code\\lab2a.txt");//relivent path finding it goes from where it is runing and navigates fomr there
         }
 
         private void btn_runPart2_Click(object sender, EventArgs e)
         {
-            Process.Start("labs\\lab2b.exe");
+            Process.Start("labs\\lab2b.exe");//relivent path finding it goes from where it is runing and navigates fomr there
         }
 
         private void btn_codePart2_Click(object sender, EventArgs e)
         {
-            Process.Start("labs_code\\lab2b.txt");
+            Process.Start("labs_code\\lab2b.txt");//relivent path finding it goes from where it is runing and navigates fomr there
         }
     }
 }

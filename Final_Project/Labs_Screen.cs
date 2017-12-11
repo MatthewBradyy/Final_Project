@@ -20,12 +20,14 @@ namespace Final_Project
 
         private void btn_lab2_Click(object sender, EventArgs e)
         {
+            //lab to is different then to other lab because it has to parts so i made its own screeen
             Lab2_from f = new Lab2_from();
             this.Close();
             f.Show();
         }
         private void lab_choose_btn(object sender, EventArgs e)
-        {        
+        {
+            //Creats a object so that the text on the butten can be sent making it so i only neeed on event handler
             Button clickedButton = (Button)sender;                 
             Setup s = new Setup();
             Close();
